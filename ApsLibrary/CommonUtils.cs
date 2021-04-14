@@ -51,18 +51,14 @@ namespace ApsLibrary
         /// <param name="rule">используемое правило связки</param>
         public static void RunSmc(SmcRule rule)
         {
-			Dict
+            Dictionary<SmcRule, string> rulePespNames = new Dictionary<SmcRule, string>()
+            { { SmcRule.Default, "SMC Default" } };
 
-            string pespName;
-            switch (rule)
-            {
-                case SmcRule.Default:
-                    pespName = "Run SMC";
-                    break;
-                default:
-                    throw new NotSupportedException(rule.ToString());
-            }
-            Preactor.RunEventScript(pespName);
+            if (!rulePespNames.ContainsKey(rule))
+                Log($"Неизвестное правило связки {rule.ToString()}", LogSeverity.Error);
+			
+			Log($"Связка материалов по правилу {rule.ToString()}");
+            Preactor.RunEventScript(rulePespNames[rule]);
         }
 
         /// <summary>
