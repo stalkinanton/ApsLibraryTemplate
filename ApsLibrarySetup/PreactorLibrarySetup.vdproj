@@ -45,6 +45,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_43ADB25629CA44958339AEE4E3F5E778"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A3F4824AF8A2B44D74B2D6D75E3E5C4B"
         "OwnerKey" = "8:_064736B0A93F4AC38D966B4C57DECEAF"
         "MsmSig" = "8:_UNDEFINED"
@@ -82,12 +88,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C19D315023EE22390DFE023BF3C35482"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_064736B0A93F4AC38D966B4C57DECEAF"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -113,6 +113,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_3515D81CFF8CBC7FC9F7D86BE1A960BB"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C19D315023EE22390DFE023BF3C35482"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -172,6 +178,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -231,6 +245,26 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_43ADB25629CA44958339AEE4E3F5E778"
+            {
+            "SourcePath" = "8:teamgantt.ico"
+            "TargetName" = "8:teamgantt.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_A3EC7DA2115D44BE9355553C934DFFA0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A3F4824AF8A2B44D74B2D6D75E3E5C4B"
@@ -418,7 +452,7 @@
         "UpgradeCode" = "8:{932C7C25-4ACF-4F67-A876-CF16DEB812D1}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
@@ -431,7 +465,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Библиотека функций Preactor"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_43ADB25629CA44958339AEE4E3F5E778"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
